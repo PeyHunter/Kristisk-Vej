@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Aktivitet {
 
     public Aktivitet()
@@ -6,6 +8,9 @@ public class Aktivitet {
     private int     event;
     private String  task;
     private int     duration;
+
+    private int antalAktivitet = 0;
+
 
     public Aktivitet(int e, String t, int d)
     {
@@ -29,4 +34,8 @@ public class Aktivitet {
         return duration;
     }
 
+    public String toString()
+    {
+        return "event; " + event + " task; " + task + " duration; " + duration;
+    }
 }
