@@ -58,6 +58,7 @@ public class Main {
 
 
 
+        Aktivitet.udfoersel();
 
         System.out.println(antalAktivitet);
         System.out.println(averageDuration);

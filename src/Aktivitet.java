@@ -1,12 +1,13 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class Aktivitet {
+public class Aktivitet
+{
 
     private static ArrayList<Aktivitet> tabel = new ArrayList<>();
 
-    public static void setTabel(ArrayList<Aktivitet> table) {
-        tabel = table;
+    public static void setTabel(ArrayList<Aktivitet> t) {
+        tabel = t;
     }
 
     public Aktivitet()
@@ -47,7 +48,7 @@ public class Aktivitet {
     }
 
 
-   private void swab (ArrayList<Aktivitet> tabel, int x, int y)
+   /*private void swab (ArrayList<Aktivitet> tabel, int x, int y)
     {
         Aktivitet a = new Aktivitet();
         a = tabel.get(x);
@@ -65,6 +66,23 @@ public class Aktivitet {
                     swab(j, j + 1);
                 }
             }
+    }*/
+
+    public static void void udfoersel()
+    {
+
+    for(int i = 0; i < event; i++)
+    {
+
+        for(int j = 0; j < event - 1; j++)
+        {
+         if (tabel.get(i).getEvent() > tabel.get(j).getEvent())
+            {
+            System.out.println("Event udførlset er korrekt");
+             }
+             System.out.println("event blev IKKE gennemført korrekt");
+            }
+        }
     }
 
 }
