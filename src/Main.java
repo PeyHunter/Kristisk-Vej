@@ -54,11 +54,10 @@ public class Main {
         double averageDuration = (double) totalDuration / antalAktivitet;
 
 
+        Aktivitet aktivitetInstance = new Aktivitet();
+        aktivitetInstance.udfoersel(tabel);
 
 
-
-
-        Aktivitet.udfoersel();
 
         System.out.println(antalAktivitet);
         System.out.println(averageDuration);

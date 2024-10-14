@@ -4,11 +4,6 @@ import java.util.ArrayList;
 public class Aktivitet
 {
 
-    private static ArrayList<Aktivitet> tabel = new ArrayList<>();
-
-    public static void setTabel(ArrayList<Aktivitet> t) {
-        tabel = t;
-    }
 
     public Aktivitet()
     { }
@@ -68,7 +63,7 @@ public class Aktivitet
             }
     }*/
 
-    public static void void udfoersel()
+    public void udfoersel(ArrayList<Aktivitet> tabel)
     {
 
     for(int i = 0; i < event; i++)
