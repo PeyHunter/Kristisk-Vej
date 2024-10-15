@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 
 public class Aktivitet
@@ -65,6 +66,8 @@ public class Aktivitet
 
     public void udfoersel(ArrayList<Aktivitet> tabel)
     {
+
+        //tabel.sort(Comparator.comparingInt(Aktivitet::getEvent));
 
     for(int i = 0; i < event; i++)
     {
